@@ -1,0 +1,5 @@
+Question->
+2. A teacher needs to calculate the average score of 5 students in a class. Write a program that
+takes 5 scores as input and outputs the average score.
+
+Solution->
