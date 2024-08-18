@@ -1,0 +1,6 @@
+Question ->
+4. A company wants to calculate the annual salary of an employee given their monthly salary. If the
+employee has been with the company for more than 5 years, they get a bonus of 10% on their
+annual salary. Write a C program to calculate the final salary.
+
+Solution->

@@ -1,0 +1,5 @@
+Question ->
+5. Write a program that asks the user for their age and then prints out whether they are eligible to
+vote (age 18 or older) or not.
+
+Solution->
