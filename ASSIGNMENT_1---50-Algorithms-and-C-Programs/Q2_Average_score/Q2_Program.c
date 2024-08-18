@@ -9,6 +9,7 @@ int main()
     double average = 0;
     int temp_score = 0;
 
+    // inputting individual marks of all students and validating individual input
     int input_validator = 0;
     for (int i = 0; i < STUDENT_NUMBER; i++)
     {
@@ -26,6 +27,7 @@ int main()
         sum += temp_score;
     }
 
+    //calculating average
     if (STUDENT_NUMBER > 0)
     {
         average= sum/STUDENT_NUMBER;

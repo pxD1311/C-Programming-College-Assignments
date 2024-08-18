@@ -11,12 +11,14 @@ int main()
     int total_items = 0;
     printf("Enter total number of items in your shopping cart :");
 
+    // input total items and validating the input
     while (scanf("%d", &total_items) != 1)
     {
         printf("Invalid Input : Total number of items must be an INTEGER!\n");
         printf("Enter total number of items in your shopping cart :");
     }
 
+    // input price of individual items, validating the input and also adding the individual cost to total cost
     int input_validator = 0;
     for (int i = 0; i < total_items; i++)
     {
@@ -32,6 +34,7 @@ int main()
         total_cost += temp_cost;
     }
 
+    // applying dicount if condition is satisfied and printing the output in both cases
     if (total_cost > DISCOUNT_PRICE)
     {
         total_cost -= total_cost * DISCOUNT_RATE;
