@@ -1,0 +1,5 @@
+Question ->
+6. Write a program that calculates the simple interest on a savings account. The program should
+take the principal amount, interest rate, and the number of years as input.
+
+Solution ->
