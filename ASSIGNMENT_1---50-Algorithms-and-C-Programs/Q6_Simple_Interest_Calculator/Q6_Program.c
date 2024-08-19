@@ -22,7 +22,7 @@ int main()
                 p_valid = 0;
                 printf("Invalid Input : Pricnipal can only be a positive real number\n");
                 while (getchar() != '\n')
-                    ;
+                    ;//clearing input buffer
             }
         }
         if (r_valid != 1)

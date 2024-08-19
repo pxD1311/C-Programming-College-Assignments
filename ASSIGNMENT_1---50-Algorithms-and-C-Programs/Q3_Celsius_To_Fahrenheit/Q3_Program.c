@@ -13,6 +13,8 @@ int main()
     {
         printf("Invalid Input : Temperature must be a real valued number!\n");
         printf("Enter temperature in Celsius :");
+        while (getchat() != '\n')
+            ;// clearing input buffer
     }
 
     //conversion from Celcius to Fahrenheit
